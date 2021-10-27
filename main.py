@@ -30,8 +30,8 @@ class Auto:
 
     def cantidadAsientos(self):
         cantidad = 0
-        for i in range(len(asientos)):
-            if isinstance(asientos[i],Asiento):
+        for i in range(len(self.asientos)):
+            if isinstance(self.asientos[i],Asiento):
                 cantidad += 1
         return cantidad
     
